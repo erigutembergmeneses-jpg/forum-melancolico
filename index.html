@@ -9,7 +9,7 @@
       font-family: 'Georgia', serif;
       line-height: 1.7;
       color: #222;
-      background: #fdfdfd;
+      background-color: #fdfdfd;
       margin: 0;
       padding: 40px 20px;
       max-width: 700px;
@@ -49,11 +49,24 @@
       border-top: 1px solid #ccc;
       margin: 40px 0;
     }
-    .comments {
-      text-align: center;
+    .comments-section {
       margin-top: 40px;
+      padding-top: 30px;
+      border-top: 1px solid #eee;
+    }
+    .comment-invite {
+      text-align: center;
       font-style: italic;
       color: #666;
+      margin-top: 20px;
+    }
+    .comment-invite a {
+      color: #555;
+      text-decoration: underline;
+      font-weight: normal;
+    }
+    .comment-invite a:hover {
+      color: #333;
     }
   </style>
 </head>
@@ -86,17 +99,18 @@
     Em tempos de vigilância emocional, amar virou subversão. O toque virou suspeita. O cuidado, ameaça. Mas aqui, o afeto é arma e escudo.
   </p>
 
-<h2>Comentários</h2>
-<p style="text-align: center; font-style: italic; color: #666; margin-top: 20px;">
-  Este fórum vive da sua voz.<br>
-  Se esta página tocou algo em você — uma memória, uma ferida, uma esperança —<br>
-  <a href="https://forms.gle/7VxKJvRcFpZqQYrE8" 
-     target="_blank" 
-     rel="noopener" 
-     style="color: #555; text-decoration: underline; font-weight: normal;">
-    → escreva. Compartilhe. Resista.
-  </a>
-</p>
-  
+  <div class="comments-section">
+    <h2>Comentários</h2>
+    <div class="comment-invite">
+      Este fórum vive da sua voz.<br>
+      Se esta página tocou algo em você — uma memória, uma ferida, uma esperança —<br>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScx5qX3v6Yd46AMbaFBN7hlGGRDEqL1KH4ir_JvUhZNDU/viewform"
+         target="_blank"
+         rel="noopener">
+        → escreva. Compartilhe. Resista.
+      </a>
+    </div>
+  </div>
+
 </body>
 </html>
